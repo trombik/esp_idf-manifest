@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-RSpec.describe EspIdf::Manifest do
+RSpec.describe ESPIDF::Manifest do
   it "has a version number" do
-    expect(EspIdf::Manifest::VERSION).not_to be nil
+    expect(ESPIDF::Manifest::VERSION).not_to be nil
   end
 end

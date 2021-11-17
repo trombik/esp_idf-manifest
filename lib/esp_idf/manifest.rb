@@ -2,7 +2,7 @@
 
 require_relative "manifest/version"
 
-module EspIdf
+module ESPIDF
   module Manifest
     class Error < StandardError; end
     # Your code goes here...
