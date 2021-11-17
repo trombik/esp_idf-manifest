@@ -5,7 +5,7 @@ require_relative "lib/esp_idf/manifest/version"
 # rubocop:disable Metrics/BlockLength
 Gem::Specification.new do |spec|
   spec.name          = "esp_idf-manifest"
-  spec.version       = EspIdf::Manifest::VERSION
+  spec.version       = ESPIDF::Manifest::VERSION
   spec.authors       = ["Tomoyuki Sakurai"]
   spec.email         = ["y@trombik.org"]
 
@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_development_dependency "guard-rspec", "~> 1.2.1"
   spec.add_development_dependency "guard-rubocop", "~> 1.5.0"
   spec.add_development_dependency "rb-kqueue", "~> 0.2.7"
   spec.add_development_dependency "rubocop", "~> 1.23.0"
